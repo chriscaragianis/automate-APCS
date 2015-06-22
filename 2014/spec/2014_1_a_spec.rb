@@ -43,7 +43,7 @@ RSpec.describe Scramble do
     it { should eq 'NANTAO' }     
   end  
  
-  describe 'scramble_word: Multiple switches, handle double swutch' do
+  describe 'scramble_word: Multiple switches, handle double switch' do
     let (:word) {'BANANA'}
     it { should eq 'ABNNAA' }     
   end  

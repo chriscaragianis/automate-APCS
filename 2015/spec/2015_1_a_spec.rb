@@ -9,7 +9,7 @@ RSpec.describe DiverseArray do
   subject { DiverseArray::array_sum array }
   describe '::array_sum' do
     
-    context 'with an empty array' do
+    context 'with an empty array ' do
       let (:array) { [] }
       it { should eq 0 }
     end
